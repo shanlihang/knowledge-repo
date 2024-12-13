@@ -22,6 +22,13 @@ sudo apt install zsh
 3. 安装 oh-my-zsh：
 
 ```shell
+# 国内镜像源
+sh -c "$(curl -fsSL https://gitee.com/shmhlsy/oh-my-zsh-install.sh/raw/master/install.sh)"
+
+# github 官方源
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# wget 下载脚本
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
 
