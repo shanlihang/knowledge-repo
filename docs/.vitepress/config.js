@@ -13,7 +13,7 @@ module.exports = {
       {
         text: "更多",
         items: [
-          { text: "未分类", link: "/guide" },
+          { text: "未分类", link: "/no-type/vscode.md" },
           { text: "更新日志", link: "/guide" },
           { text: "开源项目", link: "/guide" },
         ],
