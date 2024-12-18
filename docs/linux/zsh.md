@@ -43,12 +43,12 @@ chsh -s $(which zsh)
 - 配置文件路径： `~/.zshrc`
 - 常用插件列表
 
-| 插件名称                | 插件作用            | 下载命令                                                                                                              |
-| ----------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| git                     | 显示 git 仓库的状态 | 内置插件，无需下载                                                                                                    |
-| zsh-autosuggestions     | 自动补全命令        | git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions            |
-| zsh-syntax-highlighting | 语法高亮            | git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/pluginszsh-syntax-highlighting |
-| zsh-completions         | 扩展命令补全        | git clone https://github.com/zsh-users/zsh-completions.git ~/.oh-my-zsh/custom/plugins/zsh-completions                |
+| 插件名称                | 插件作用            | 下载命令                                                                                                               |
+| ----------------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| git                     | 显示 git 仓库的状态 | 内置插件，无需下载                                                                                                     |
+| zsh-autosuggestions     | 自动补全命令        | git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions             |
+| zsh-syntax-highlighting | 语法高亮            | git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting |
+| zsh-completions         | 扩展命令补全        | git clone https://github.com/zsh-users/zsh-completions.git ~/.oh-my-zsh/custom/plugins/zsh-completions                 |
 
 - 配置文件示例
 
