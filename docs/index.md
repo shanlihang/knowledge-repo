@@ -14,7 +14,7 @@ hero:
       link: /guide
     - theme: alt
       text: GitHub
-      link: https://github.com/shanlihang
+      link: https://github.com/shanlihang/knowledge-repo
 
 features:
   - icon: 🛠️
@@ -36,11 +36,3 @@ features:
     title: 开源贡献入口
     details: 对于一些开源工具，ToolBoxer 提供了开源贡献入口，让开发者可以直接参与到工具的开发中
 ---
-
-## 近期更新
-
-# <Badge type="tip" text="1. 前端 / 用户引导库 - driver.js" />
-
-# <Badge type="warning" text="2. 前端 / 动态背景库 - vanta.js" />
-
-# <Badge type="danger" text="3. Linux / 命令行美化工具 - oh-my-zsh" />
