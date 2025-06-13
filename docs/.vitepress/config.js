@@ -15,6 +15,7 @@ module.exports = {
         text: "更多",
         items: [
           { text: "未分类", link: "/no-type/vscode.md" },
+          { text: "git使用", link: "/no-type/git.md" },
           { text: "更新日志", link: "/guide" },
           { text: "开源项目", link: "/guide" },
         ],
