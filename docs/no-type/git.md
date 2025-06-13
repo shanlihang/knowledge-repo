@@ -28,10 +28,18 @@ ssh-keygen -t ed25519 -C "your_work@email.com" -f ~/.ssh/id_ed25519_work
 2. 添加到 ssh Agent
 
 ```
+# macOS/Linux
 eval "$(ssh-agent -s)"
 
 ssh-add ~/.ssh/id_ed25519_personal
 ssh-add ~/.ssh/id_ed25519_work
+
+# Windows
+Set-Service -Name ssh-agent -StartupType 'Automatic'
+Start-Service ssh-agent
+
+ssh-add $env:USERPROFILE\.ssh\id_ed25519_personal
+ssh-add $env:USERPROFILE\.ssh\id_ed25519_work
 ```
 
 3. 配置 `~/.ssh/config` 文件
