@@ -1,34 +1,27 @@
-name: Deploy VitePress with pnpm
+name: Deploy VitePress to GitHub Pages
 
 on:
   push:
     branches:
-      - main # 或你默认分支
+      - main
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js 23.11.1
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 23.11.1
-          cache: "pnpm" # ✅ 自动缓存 node_modules，加快安装速度
-
-      - name: Setup pnpm 10.11.0
-        uses: pnpm/action-setup@v2
-        with:
-          version: 10.11.0
+          node-version: 23
 
       - name: Install dependencies
-        run: pnpm install
+        run: npm install
 
       - name: Build docs
-        run: pnpm run docs:build
+        run: npm run docs:build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
