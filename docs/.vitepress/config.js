@@ -1,7 +1,7 @@
 module.exports = {
   title: "DevToolbox",
   description: "第三方工具与库的知识库平台",
-  base: "/docs",
+  base: "/knowledge-repo/",
   themeConfig: {
     //网站logo
     logo: "/icon/logo.svg",
