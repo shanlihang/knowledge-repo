@@ -51,6 +51,18 @@ module.exports = {
           items: [{ text: "wsl", link: "/environment/system/wsl.md" }],
         },
       ],
+      "/open-source/": [
+        {
+          text: "通讯类",
+          items: [
+            { text: "项目列表", link: "/open-source/communication/index.md" },
+          ],
+        },
+        {
+          text: "办公类",
+          items: [{ text: "项目列表", link: "/open-source/official/index.md" }],
+        },
+      ],
     },
     //网站页脚
     footer: {
