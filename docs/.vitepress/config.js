@@ -1,5 +1,5 @@
 module.exports = {
-  title: "DevToolbox",
+  title: "DevTools",
   description: "第三方工具与库的知识库平台",
   base: "/knowledge-repo/",
   themeConfig: {
