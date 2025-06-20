@@ -9,7 +9,7 @@ module.exports = {
     nav: [
       { text: "实用工具", link: "/tools/terminal/zsh" },
       { text: "环境配置", link: "/environment/language/asdf" },
-      { text: "开源项目", link: "/open-source/wait" },
+      { text: "开源项目", link: "/open-source/communication" },
       {
         text: "更多",
         items: [
