@@ -4,7 +4,7 @@ module.exports = {
   base: "/knowledge-repo/",
   themeConfig: {
     //网站logo
-    logo: "/icon/logo.svg",
+    logo: "/logo.svg",
     //导航栏
     nav: [
       { text: "前端", link: "/web/vanta.md" },
@@ -79,6 +79,6 @@ module.exports = {
     returnToTopLabel: "返回顶部",
   },
   head: [
-    ["link", { rel: "icon", href: "/icon/logo.svg" }], // 指定图标路径
+    ["link", { rel: "icon", href: "/knowledge-repo/logo.svg" }], // 指定图标路径
   ],
 };
