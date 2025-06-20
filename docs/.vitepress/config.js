@@ -1,56 +1,61 @@
 module.exports = {
-  title: "DevToolbox",
+  title: "DevTools",
   description: "第三方工具与库的知识库平台",
   base: "/knowledge-repo/",
   themeConfig: {
     //网站logo
-    logo: "/icon/logo.svg",
+    logo: "/logo.svg",
     //导航栏
     nav: [
-      { text: "前端", link: "/web/vanta.md" },
-      { text: "后端", link: "/guide" },
-      { text: "移动端", link: "/guide" },
-      { text: "Linux", link: "/linux/wsl.md" },
+      { text: "实用工具", link: "/tools/terminal/zsh" },
+      { text: "环境配置", link: "/environment/language/asdf" },
+      { text: "开源项目", link: "/open-source/wait" },
       {
         text: "更多",
         items: [
-          { text: "未分类", link: "/no-type/vscode.md" },
-          { text: "git使用", link: "/no-type/git.md" },
-          { text: "Mac设置", link: "/no-type/mac.md" },
-          { text: "更新日志", link: "/guide" },
-          { text: "开源项目", link: "/guide" },
+          { text: "Mac设置", link: "/temp/mac.md" },
+          { text: "更新日志", link: "/log" },
         ],
       },
     ],
     //侧边栏
     sidebar: {
-      "/web/": [
+      "/tools/": [
         {
-          text: "样式插件",
-          items: [{ text: "vanta.js 动态背景", link: "/web/vanta.md" }],
-        },
-        {
-          text: "功能插件",
-          items: [
-            { text: "typewriter.js 打字机效果", link: "/web/typewriter.md" },
-          ],
+          text: "终端工具",
+          items: [{ text: "zsh", link: "/tools/terminal/zsh.md" }],
         },
       ],
-
-      "/linux/": [
+      "/environment/": [
         {
-          text: "功能插件",
+          text: "语言环境",
           items: [
-            { text: "wsl Linux系统", link: "/linux/wsl.md" },
-            { text: "zsh 命令行工具", link: "/linux/zsh.md" },
+            {
+              text: "asdf 多语言版本管理",
+              link: "/environment/language/asdf.md",
+            },
+            { text: "nodejs 版本管理", link: "/environment/language/node.md" },
+            { text: "golang 版本管理", link: "/environment/language/go.md" },
+            {
+              text: "python 版本管理",
+              link: "/environment/language/python.md",
+            },
           ],
+        },
+        {
+          text: "版本管理",
+          items: [{ text: "git", link: "/environment/version/git.md" }],
+        },
+        {
+          text: "系统环境",
+          items: [{ text: "wsl", link: "/environment/system/wsl.md" }],
         },
       ],
     },
     //网站页脚
     footer: {
       message: "developed using <em>VitePress</em>.",
-      copyright: "Copyright © 2024 by slh67490009@gmail.com",
+      copyright: "Copyright © 2025 by slh67490009@gmail.com",
     },
     //社交
     socialLinks: [
@@ -79,6 +84,6 @@ module.exports = {
     returnToTopLabel: "返回顶部",
   },
   head: [
-    ["link", { rel: "icon", href: "/icon/logo.svg" }], // 指定图标路径
+    ["link", { rel: "icon", href: "/knowledge-repo/logo.svg" }], // 指定图标路径
   ],
 };
