@@ -50,6 +50,10 @@ module.exports = {
           text: "系统环境",
           items: [{ text: "wsl", link: "/environment/system/wsl.md" }],
         },
+        {
+          text: "存储环境",
+          items: [{ text: "MINIO", link: "/environment/storage/minio.md" }],
+        },
       ],
       "/open-source/": [
         {
