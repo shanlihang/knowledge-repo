@@ -25,6 +25,11 @@ module.exports = {
           text: "终端工具",
           items: [{ text: "zsh", link: "/tools/terminal/zsh.md" }],
         },
+
+        {
+          text: "虚拟环境工具",
+          items: [{ text: "uv", link: "/tools/venv/uv.md" }],
+        },
       ],
       "/environment/": [
         {
