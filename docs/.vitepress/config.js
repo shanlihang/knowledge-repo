@@ -25,10 +25,13 @@ module.exports = {
           text: "终端工具",
           items: [{ text: "zsh", link: "/tools/terminal/zsh.md" }],
         },
-
         {
-          text: "虚拟环境工具",
+          text: "虚拟环境",
           items: [{ text: "uv", link: "/tools/venv/uv.md" }],
+        },
+        {
+          text: "对象存储",
+          items: [{ text: "minio", link: "/tools/oss/minio.md" }],
         },
       ],
       "/environment/": [
@@ -54,10 +57,6 @@ module.exports = {
         {
           text: "系统环境",
           items: [{ text: "wsl", link: "/environment/system/wsl.md" }],
-        },
-        {
-          text: "存储环境",
-          items: [{ text: "MINIO", link: "/environment/storage/minio.md" }],
         },
       ],
       "/open-source/": [
