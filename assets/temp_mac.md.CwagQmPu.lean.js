@@ -1,0 +1,1 @@
+import{_ as s,c as e,o as i,ag as t}from"./chunks/framework.Ii2o3pk_.js";const k=JSON.parse('{"title":"Mac 使用整理","description":"","frontmatter":{},"headers":[],"relativePath":"temp/mac.md","filePath":"temp/mac.md"}'),n={name:"temp/mac.md"};function h(l,a,r,p,o,d){return i(),e("div",null,a[0]||(a[0]=[t("",22)]))}const b=s(n,[["render",h]]);export{k as __pageData,b as default};
