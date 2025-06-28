@@ -34,6 +34,10 @@ module.exports = {
           text: "对象存储",
           items: [{ text: "minio", link: "/tools/oss/minio.md" }],
         },
+        {
+          text: "前端工具",
+          items: [{ text: "tailwindcss", link: "/tools/web/tailwindcss.md" }],
+        },
       ],
       "/environment/": [
         {
