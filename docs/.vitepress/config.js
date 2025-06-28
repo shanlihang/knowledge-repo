@@ -10,6 +10,7 @@ module.exports = {
       { text: "实用工具", link: "/tools/terminal/zsh" },
       { text: "环境配置", link: "/environment/language/asdf" },
       { text: "开源项目", link: "/open-source/communication" },
+      { text: "AI", link: "/ai/generative/rag" },
       {
         text: "更多",
         items: [
@@ -69,6 +70,14 @@ module.exports = {
         {
           text: "办公类",
           items: [{ text: "项目列表", link: "/open-source/official/index.md" }],
+        },
+      ],
+      "/ai/": [
+        {
+          text: "生成式AI",
+          items: [
+            { text: "RAG - 检索增强生成", link: "/ai/generative/rag.md" },
+          ],
         },
       ],
     },
