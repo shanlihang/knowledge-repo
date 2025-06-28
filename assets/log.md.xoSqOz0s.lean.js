@@ -1,0 +1,1 @@
+import{_ as a,c as i,o as e,ag as t}from"./chunks/framework.Ii2o3pk_.js";const r=JSON.parse('{"title":"更新日志","description":"","frontmatter":{},"headers":[],"relativePath":"log.md","filePath":"log.md"}'),l={name:"log.md"};function n(p,s,h,k,o,d){return e(),i("div",null,s[0]||(s[0]=[t("",9)]))}const g=a(l,[["render",n]]);export{r as __pageData,g as default};
