@@ -21,9 +21,9 @@ Tailwind CSS 是一个功能类优先的 CSS 框架，允许你直接在 `HTML/V
 | ⚡ **性能优化**   | 构建时自动清除未使用的 CSS，最终体积极小        |
 | 🛠 **生态丰富**    | 插件机制支持动画、表单、美化 Markdown 等        |
 
-## 使用
+## 配置
 
-### umi 使用
+### umi 配置
 
 ```bash
 # Max项目
@@ -31,3 +31,39 @@ npx max g tailwindcss
 # Umi项目
 npx umi g tailwindcss
 ```
+
+### vite 项目配置
+
+1. 安装依赖
+
+```bash
+pnpm add tailwindcss @tailwindcss/vite
+```
+
+2. 配置 vite 插件
+
+```bash
+# vite.config.ts
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+  ],
+})
+```
+
+3. 全局样式文件中引入
+
+```
+@import "tailwindcss";
+```
+
+## 使用
+
+### VScode 插件
+
+| 插件                        | 作用               |
+| --------------------------- | ------------------ |
+| `Tailwind CSS IntelliSense` | 编写提示，文档说明 |
+| `Prettier`                  | 格式化             |
